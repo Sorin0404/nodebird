@@ -6,17 +6,17 @@ export const initialState = {
         id: 1,
         nickname: "제로초",
       },
-      content: "첫 번째 게시글 #해시태그 #익스프레스",
+      content: "첫 번째 게시글",
       Images: [
         {
-          src: "https://velog.velcdn.com/images/sorin44/profile/d0c0193d-d5c2-4287-9f71-82e5322865e8/social.jpeg",
+          src: "https://bookthumb-phinf.pstatic.net/cover/137/995/13799585.jpg?udate=20180726",
         },
-        {
-          src: "https://avatars.githubusercontent.com/u/81001516?s=96&v=4",
-        },
-        {
-          src: "https://avatars.githubusercontent.com/u/81001516?s=400&u=66677e50f147a6fe96f2095047b9ba6015551b75&v=4",
-        },
+        // {
+        //   src: "https://gimg.gilbut.co.kr/book/BN001958/rn_view_BN001958.jpg",
+        // },
+        // {
+        //   src: "https://gimg.gilbut.co.kr/book/BN001998/rn_view_BN001998.jpg",
+        // },
       ],
       Comments: [
         {
@@ -29,7 +29,7 @@ export const initialState = {
           User: {
             nickname: "hero",
           },
-          content: "얼른 사고 싶어요~",
+          content: "얼른 사고싶어요~",
         },
       ],
     },
